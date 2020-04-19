@@ -1,0 +1,38 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deck .card {
+  margin: 0.3em;
+}
+
+.deck .card img {
+  /* 50% of normal image size
+     https://scryfall.com/docs/api/images */
+  width: 244px;
+  height: 340px;
+}
+
+.deck .card.locked {
+  margin: 0;
+  border: 0.3em solid orange;
+}
+
+.help {
+  font-style: italic;
+  color: gray;
+  font-size: 0.7em;
+}
